@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sport Cars</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+        header {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            padding: 1.5rem 0;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #34495e;
+            padding: 0.8rem 0;
+        }
+        nav a {
+            color: #ecf0f1;
+            text-decoration: none;
+            margin: 0 1rem;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+        nav a:hover {
+            background: #1abc9c;
+            color: #fff;
+        }
+        main {
+            padding: 3rem 1.5rem;
+            text-align: center;
+            line-height: 1.6;
+        }
+        main h2 {
+            color: #2980b9;
+            margin-bottom: 1.5rem;
+        }
+        main p {
+            max-width: 700px;
+            margin: 0 auto 2rem;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background: #2c3e50;
+            color: #ecf0f1;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Sport Cars Website</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="sport-cars.html">Sport Cars</a>
+        <a href="sign-in.html">Sign In</a>
+        <a href="https://en.wikipedia.org/wiki/Sports_car" target="_blank">Learn More</a>
+    </nav>
+    <main>
+        <h2>About Sport Cars</h2>
+        <p>Sport cars are designed to provide high-speed performance and an exhilarating driving experience. They feature powerful engines, sleek designs, and advanced technology.</p>
+        <img src="https://example.com/sport-car.jpg" alt="Sport Car">
+    </main>
+    <footer>
+        <p>&copy; 2025 Sport Cars Website</p>
+    </footer>
+</body>
+</html>
